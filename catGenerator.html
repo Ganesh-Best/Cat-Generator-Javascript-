@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cat Generator:</title>
+
+       <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<style>
+ .mainBox{
+
+   text-align:center;
+   margin:20px auto;
+   width:75%;
+   border:1px solid black;
+   
+ }
+ .mainBox .flexBox{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-around;
+  border:2px solid black;
+ }
+ .mainBox .flexBox img{
+   border:1px solid blue;
+   padding:20px;
+ }
+</style>
+</head>
+<body>
+     <!--It is very basic project in which you create cat GIF images when you will 
+     click Generate Button:  -->
+
+   <div class="container-fluid">
+    
+     <div class="mainBox"> 
+       <h1 class="mt-3">Challenge 2 : Cat Generator </h1>
+       <button type="button" class="btn btn-success btn-lg my-4 mb-5" onclick="catGenerator()">Generate</button>
+    
+     <div class="flexBox" id ="flexbox">
+    
+     </div>
+
+
+
+     </div>
+
+
+
+   </div>
+
+
+ <script src="catImageGenerator.js"></script>   
+</body>
+</html>
